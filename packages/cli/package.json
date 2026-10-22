@@ -1,0 +1,12 @@
+{
+  "name": "@lemon-squared/google-business-profile-mcp",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "google-business-profile-mcp": "./src/index.ts"
+  },
+  "dependencies": {
+    "@lemon-squared/google-business-profile-mcp-core": "workspace:*"
+  }
+}

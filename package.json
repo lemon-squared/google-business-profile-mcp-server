@@ -1,0 +1,17 @@
+{
+  "name": "google-business-profile-mcp-server",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "check": "ultracite check .",
+    "format": "ultracite fix .",
+    "start": "bun packages/cli/src/index.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "ultracite": "8.0.1"
+  }
+}
