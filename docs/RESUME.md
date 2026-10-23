@@ -51,6 +51,20 @@ Later writes, still in this repo: update a location, reply to a review, create a
 
 A normal call is `list_accounts`, then `list_locations`, then one location's details, performance, or reviews.
 
+## Related scaffolds
+
+Search Console, PageSpeed and CrUX, Ads conversions, Bing Webmaster, IndexNow, the Indexing API, and Merchant Center are their own repositories. Do not add their tools here.
+
+| Repo | Role |
+| --- | --- |
+| [google-search-console-mcp-server](https://github.com/lemon-squared/google-search-console-mcp-server) | Search Console |
+| [google-pagespeed-mcp-server](https://github.com/lemon-squared/google-pagespeed-mcp-server) | PageSpeed Insights and CrUX |
+| [google-ads-mcp-server](https://github.com/lemon-squared/google-ads-mcp-server) | Ads conversion actions |
+| [bing-webmaster-mcp-server](https://github.com/lemon-squared/bing-webmaster-mcp-server) | Bing Webmaster |
+| [indexnow-mcp-server](https://github.com/lemon-squared/indexnow-mcp-server) | IndexNow URL pushes |
+| [google-indexing-mcp-server](https://github.com/lemon-squared/google-indexing-mcp-server) | Indexing API for 8ball.live streams |
+| [google-merchant-mcp-server](https://github.com/lemon-squared/google-merchant-mcp-server) | Merchant Center for the WMS |
+
 ## Order of work
 
 1. Implement the read tools in `packages/core`, then make `packages/cli` an stdio MCP server.
