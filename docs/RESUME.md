@@ -53,7 +53,7 @@ A normal call is `list_accounts`, then `list_locations`, then one location's det
 
 ## Related scaffolds
 
-Search Console, PageSpeed and CrUX, Ads conversions, Bing Webmaster, IndexNow, the Indexing API, and Merchant Center are their own repositories. Do not add their tools here.
+Search Console, PageSpeed and CrUX, Ads, Bing Webmaster, IndexNow, the Indexing API, both Merchant Center APIs, Microsoft Advertising, Bing Places, and Clarity are their own repositories. Do not add their tools here.
 
 | Repo | Role |
 | --- | --- |
@@ -63,7 +63,11 @@ Search Console, PageSpeed and CrUX, Ads conversions, Bing Webmaster, IndexNow, t
 | [bing-webmaster-mcp-server](https://github.com/lemon-squared/bing-webmaster-mcp-server) | Bing Webmaster |
 | [indexnow-mcp-server](https://github.com/lemon-squared/indexnow-mcp-server) | IndexNow URL pushes |
 | [google-indexing-mcp-server](https://github.com/lemon-squared/google-indexing-mcp-server) | Indexing API for 8ball.live streams |
-| [google-merchant-mcp-server](https://github.com/lemon-squared/google-merchant-mcp-server) | Merchant Center for the WMS |
+| [google-merchant-mcp-server](https://github.com/lemon-squared/google-merchant-mcp-server) | Google Merchant Center for the WMS |
+| [microsoft-advertising-mcp-server](https://github.com/lemon-squared/microsoft-advertising-mcp-server) | Microsoft Advertising, REST |
+| [microsoft-merchant-mcp-server](https://github.com/lemon-squared/microsoft-merchant-mcp-server) | Microsoft Merchant Center |
+| [bing-places-mcp-server](https://github.com/lemon-squared/bing-places-mcp-server) | Bing Places trusted-partner listings |
+| [microsoft-clarity-mcp-server](https://github.com/lemon-squared/microsoft-clarity-mcp-server) | Clarity dashboard export |
 
 ## Order of work
 
